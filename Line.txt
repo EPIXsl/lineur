@@ -1,0 +1,8 @@
+a = int(input('Введите a '))
+b = int(input('Введите b '))
+if (a == 0 and b == 0):
+    print('множество корней')
+if (a == 0 and b != 0):
+    print('Нет корней')
+if (a != 0):
+    print(b/a)
